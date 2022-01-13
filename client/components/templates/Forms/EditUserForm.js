@@ -4,6 +4,7 @@ import { Form, SubmitButton, ResetButton } from 'formik-semantic-ui-react';
 import { Grid, Container} from 'semantic-ui-react';
 import { FormField, FormSelectCountry, FormTextArea } from 'components/modules/FormElements';
 import axios from 'axios';
+import dateFormat from 'dateformat';
 
 const validation = Yup.object(
   {
@@ -22,7 +23,7 @@ export default function EditUserForm({ user }) {
     const values = {
         name: user.name,
         username: user.username,
-        dob: user.dob,
+        dob: dateFormat(user.dob, "yyyy-mm-dd"),
         address1: user.address.address1,
         address2: user.address.address2,
         country: user.address.country,
