@@ -21,7 +21,8 @@ const userSchema = new mongoose.Schema({
             country: {type: String},
             postalCode: {type: String}
         },
-        required: true
+        required: true,
+        _id: false
     },
     description: {
         type: String
