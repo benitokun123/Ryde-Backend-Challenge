@@ -1,5 +1,7 @@
 # Ryde-Technical-Challenge
-This is a simple user RESTful api with a client that I've written for Ryde technical challenge. To run the code please follow the following steps:
+This is a simple user RESTful api with a client that I've written for Ryde technical challenge. The main libraries used in this project are: Next.js (for `client`), Express.js (for `users` api), mongoose (for interaction with MongoDB).
+
+To run the code please follow the following steps:
 <br/><br/>
 
 1. Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
