@@ -1,4 +1,4 @@
-# Ryde-Backend-Challenge
+# Ryde-Technical-Challenge
 This is a simple user RESTful api with a client that I've written for Ryde technical challenge. To run the code please follow the following steps:
 <br/><br/>
 
